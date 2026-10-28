@@ -1,0 +1,11 @@
+{
+  "name": "A - LISTERS HUB (T & F SPRINTS COACH K)",
+  "short_name": "A-Listers Sprints",
+  "description": "High-school track and field sprint programmes by Coach K",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "orientation": "portrait-primary",
+  "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
