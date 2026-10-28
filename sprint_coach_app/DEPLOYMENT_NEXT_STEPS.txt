@@ -1,0 +1,25 @@
+A - LISTERS HUB (T & F SPRINTS COACH K) — NEXT STEPS
+
+BRANDING
+- App name and app icon use the black-and-gold A - LISTERS HUB identity.
+- All six uploaded Word programme documents are included in programmes.json.
+
+WHAT WORKS NOW
+- Browse phases, sections/weeks and day headings.
+- Swipe or use Previous/Next.
+- Search programme text.
+- Coach edit screen with a basic PIN prompt on this device.
+- Local edits, import/export JSON backup, print, and PWA manifest/service worker.
+
+IMPORTANT SECURITY AND SHARING LIMITS
+- The PIN is only a basic local-device barrier. It is not secure authentication and must not be treated as protection against a technically capable user.
+- Edits remain in the browser/device where they were made. Athletes on other phones will not automatically see coach edits.
+- Do not publish private athlete information in this prototype.
+
+TO MAKE IT A REAL SHARED TEAM APP
+1. Host this folder on an HTTPS web host (for example, a static hosting provider) so athletes can install it from their phone browser.
+2. Add a cloud authentication service with a coach account and athlete read-only accounts. The server/database rules—not a hidden button or local PIN—must enforce coach-only editing.
+3. Store programme versions in a shared database; coach presses Publish, athletes load the latest published version.
+4. Test on Android and iPhone, including offline behaviour and update delivery.
+
+This package is the branded front-end prototype; hosting credentials and cloud-backend configuration have not been supplied, so public hosting and live cross-device publishing are not enabled yet.
